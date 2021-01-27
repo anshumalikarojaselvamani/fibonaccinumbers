@@ -14,4 +14,5 @@ def fbncii(n):
         return 1
  
     else:
-        return fbnciii(n-1) + fbncii(n-2)
+        return fbncii(n-1) + fbncii(n-2)
+print(fbncii(6))
